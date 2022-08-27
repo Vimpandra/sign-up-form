@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'OpenSans';
+    src: url(./fonts/OpenSans-VariableFont_wdth.ttf);
+    font-family: 'RobotoSlab';
+    src: url(./fonts/RobotoSlab-VariableFont_wght.ttf);
+}
+
+h1 {
+    font-family: 'OpenSans';
+}
