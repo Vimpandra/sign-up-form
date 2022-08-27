@@ -6,53 +6,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign up form</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/latest/normalize.css">
     <script src="./script.js" defer></script>
 </head>
 <body>
     <section class="hero">
         <div class="logoBG">
-            <h1>Gamer Hell</h1>
+            <h1>Touching Grass</h1>
         </div>
     </section>
+
     <section class="main">
-        <p>Sign up to save your seat in gamer hell! If you join now you might be elegible to win a special suffering package taylored to your needs totally free of charge. Sign up <strong>now</strong> to get started</p>
-        <p>You know you want to</p>
-        <h2>Let's do this!</h2>
-
+        <p>Sign up to go outside and touch some grass! If you join now you might be elegible to win a special grass package taylored to your needs totally free of charge. Sign up <strong>now</strong> to get started.</p>
+        <p><i>You know you want to.</i></p>
+        
         <form action="#0" method="post" class="mainForm">
-            <div>
-                <label for="firstName">First name</label>
-                <input type="text" name="firstName" id="firstName" placeholder="Your first name" required>
-            </div>
+            <h2>Let's do this!</h2>
 
-            <div>
-                <label for="lastName">Last name</label>
-                <input type="text" name="lastName" id="lastName" placeholder="Your last name" required>
-            </div>
-            
-            <div>
-                <label for="email">Email</label>
-                <input type="email" name="email" id="email" placeholder="john@smith.com" required>
-            </div>
-
-            <div>
-                <label for="phoneNumber">Phone number</label>
-                <input type="tel" name="phoneNumber" id="phoneNumber" placeholder="+55 (XX) 99999 9999" required>
-            </div>
-
-            <div>
-                <label for="password">Password</label>
-                <input type="password" name="password" id="password" required>
-            </div>
-            
-            <div>
-                <label for="confirmPw">Confirm password</label>
-                <input type="password" name="confirmPw" id="confirmPw" required>
+            <div class="inputs">
+                <div class="input">
+                    <label for="firstName">First name</label>
+                    <input type="text" name="firstName" id="firstName" placeholder="Your first name" required>
+                </div>
+                
+                <div class="input">
+                    <label for="lastName">Last name</label>
+                    <input type="text" name="lastName" id="lastName" placeholder="Your last name" required>
+                </div>
+                
+                <div class="input">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="john@smith.com" required>
+                </div>
+                
+                <div class="input">
+                    <label for="phoneNumber">Phone number</label>
+                    <input type="tel" name="phoneNumber" id="phoneNumber" placeholder="+55 (XX) 99999 9999" required>
+                </div>
+                
+                <div class="input">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" required>
+                </div>
+                
+                <div class="input">
+                    <label for="confirmPw">Confirm password</label>
+                    <input type="password" name="confirmPw" id="confirmPw" required>
+                </div>
             </div>
         </form>
 
         <button type="submit">Create Account</button>
-        <p>Already have an account? <a href="#">Log in</a></p>
+        <p id="login">Already have an account? <a href="https://github.com/Vimpandra?tab=repositories" target="_blank">Log in</a></p>
 
     </section>
 </body>
