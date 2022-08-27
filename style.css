@@ -4,6 +4,10 @@
     font-family: 'RobotoSlab';
     src: url(./fonts/RobotoSlab-VariableFont_wght.ttf);
 }
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
 
 :root {
     --darkText: #020707;
@@ -93,19 +97,19 @@ body {
     color: var(--titles);
 }
 
-.mainForm {
+.formLabel {
     background-color: white;
-    padding-left: 2rem;
+    padding: 2rem;
     box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
 }
 
 .mainForm h2 {
     color: var(--titles);
+    margin-bottom: 1rem;
 }
 
 .inputs {
     width: 70ch;
-    padding-bottom: 1.6rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 1em;
@@ -123,3 +127,11 @@ body {
     color: #3d3d3d;
     margin-bottom: 0.2rem;
 }
+
+input {
+    padding: 0.4rem;
+    border: 1px solid var(--hilights);
+    border-radius: 4px;
+    color: var(--darkText);
+}
+
