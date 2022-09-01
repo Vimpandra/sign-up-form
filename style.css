@@ -123,7 +123,10 @@ body {
 }
 
 .input input {
-    padding: 0.6rem;
+    padding-top: 1.4rem;
+    padding-bottom: 0.6rem;
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
     border: 1px solid var(--hilights);
     border-radius: 4px;
     color: var(--darkText);
@@ -138,8 +141,26 @@ body {
     font-size: 0.8rem;
     color: #3d3d3d;
     margin-bottom: 0.2rem;
+    position: absolute;
+    left: 0.6rem;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all 0.2s;
 }
+
 
 .input input:focus {
     background-color: white;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+
+.input input:required {
+    border: 1px solid var(--hilights);
+}
+
+.input input:focus ~ label,
+.input input.filled ~ label {
+    font-size: 0.6rem;
+    top: 1rem; 
 }
