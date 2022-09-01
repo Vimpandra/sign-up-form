@@ -164,3 +164,7 @@ body {
     font-size: 0.6rem;
     top: 1rem; 
 }
+
+.errorMessage {
+    color: red;
+}
